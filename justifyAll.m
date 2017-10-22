@@ -1,13 +1,9 @@
 clear, close all
 
-values = {'small', 'medium', 'large'};
-for i = 1 : numel(values)
-    for j = 1 : numel(values)
-        for k = 1 : numel(values)
-            justify(values{i}, values{j}, values{k})
-            drawnow
-        end
-    end
+scenarios = scenario;
+parfor i = 1 : numel(scenarios)
+    [E, dMu, dSigma] = scenario(scenarios{i});
+    [p, alphas, ns] = testProbabilityFunctions(E, dMu, dSigma);
 end
 
 
