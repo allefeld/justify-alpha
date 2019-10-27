@@ -1,4 +1,4 @@
-# justify-alpha
+# Trying to justify my alpha
 
 Discussions of null hypothesis significance testing (NHST) often critizise the common significance level of α = 0.05 for being arbitrary, and call instead for a weighting of the costs and benefits of false and true positives (false and true negatives). Recent examples from the "p-value wars" include Benjamini et al. (*Redefine statistical significance*, 2017)
 
